@@ -1,0 +1,28 @@
+.pagination{
+    background-color: lightgrey;
+    padding: 10px;
+}
+.pagination li{
+    display: inline-block;
+}
+.pagination li a{
+    color: blue;
+}
+.one{
+    margin-left: 10px;
+}
+.two::before{
+    content: "/";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.three::before{
+    content: "/";
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.four::before{
+    content: "/";
+    margin-left: 10px;
+    margin-right: 10px;
+}

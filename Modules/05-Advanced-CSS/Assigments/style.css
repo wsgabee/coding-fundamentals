@@ -1,0 +1,103 @@
+@media (max-width: 425px) {
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+    display: inline-flex;
+}
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 100px 
+}
+
+header>div>h1{
+    margin-bottom: 0;
+}
+
+.introart>img{
+    width: 20rem;
+    border-radius: 50px;
+    border: 10px solid white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(114, 60, 35);
+    border-radius: 25px;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-card{
+    margin-top: 50px;
+}
+.blogpic{
+    vertical-align: top;
+    width: 15rem;
+    border-radius: 500px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+.img>figcaption{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 0px;
+}
+.img1>figcaption{
+    margin-left: 5px;
+}
+.avatar{
+    width: 5rem;
+    border-radius: 9999px;
+}
+.date{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.tags>p{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:darksalmon;
+}

@@ -1,0 +1,170 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+@media (max-width: 1024px){
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px 100px 50px 100px;
+    }
+}
+.navigation>figure{
+    margin: 40px;
+}
+.sitelogo{
+    position: relative;
+    width: 5rem;
+}
+.directory{
+    list-style-type: none;
+    display: flex;
+    flex: 75%;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    padding: 0 50px 0 50px;
+    justify-content: flex-end;
+}
+@media (max-width: 1024px){
+    .directory{
+        display: flex;
+        justify-content: center;
+    }
+}
+.sitenav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    font-size: larger;
+}
+.sitenav_link{
+    margin: 10px;
+    text-decoration: none;
+}
+.email_link{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+.email_button{
+    display: block;
+    width: 5rem;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: rgb(209, 85, 85);
+    color: white;
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin: 0px 100px 0px 100px;
+}
+@media (max-width: 1024px){
+    .getintouch{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.info{
+    list-style-type: none;
+    padding: 0 50px;
+    border-radius: 50px;
+    background-color: rgb(209, 85, 85) ;
+    color: white;
+}
+.intro{
+    padding: 45px 0 20px 0;
+}
+.intro>h1{
+    font-size: 200%;
+    margin-top: 0;
+}
+.contact_detail{
+    list-style-type: none;
+    padding: 0;
+}
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 40px 0 ;
+    padding: 0;
+}
+.icon{
+    width: 2rem;
+    margin-right: 20px;
+}
+.phonenumber{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.emailaddress{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.resident{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.fa{
+    padding: 5px;
+    font-size: 50px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 9999px;
+    color: white;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 45px 0 0 100px;
+}
+@media (max-width: 1024px){
+    .contactform{
+        width: 100%;
+    }
+}
+.contactform>h3{
+    margin: 65px 0 80px 0;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.col_25{
+    float: left;
+    width: 25%;
+    vertical-align:middle;
+}
+.col_75{
+    float: left;
+    width: 75%;
+}
+input, textarea{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
